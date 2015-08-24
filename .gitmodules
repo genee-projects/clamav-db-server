@@ -1,0 +1,3 @@
+[submodule "clamav-freshclam"]
+	path = updater
+	url = https://github.com/genee-tools/dockerfile-clamav-freshclam.git

@@ -9,5 +9,5 @@
 * `git clone https://github.com/genee-tools/clamav-db-server.git`
 * `cd clamav-db-server` 进入到 clamav-db-server 目录
 * `git submodule init && git submodule update`, 进行代码更新
-* `cd updater && add_cron.sh && cd ../` 增加自动更新到 cron 中, cron 时间为每天 4 点一次
+* `cd clamav-freshclam && add_cron.sh && cd ../` 增加自动更新到 cron 中, cron 时间为每天 4 点一次
 * `run.sh` 运行 clamav-db-server

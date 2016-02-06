@@ -10,4 +10,4 @@
 * `cd clamav-db-server` 进入到 clamav-db-server 目录
 * `git submodule init && git submodule update`, 进行代码更新
 * `cd clamav-freshclam && ./add_cron.sh && cd ../` 增加自动更新到 cron 中, cron 时间为每天 4 点一次
-* `./run.sh && ./clamav-freshclam/run.sh` 运行 clamav-db-server 并更新病毒库
+* `./clamav-freshclam/run.sh && ./run.sh`  运行 clamav-db-server 并更新病毒库
